@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pizzasLuigi/static/css/main.d83b3e3e.css",
-    "main.js": "/pizzasLuigi/static/js/main.65bdde87.js",
+    "main.js": "/pizzasLuigi/static/js/main.281c3c87.js",
     "static/js/787.b7ef7d92.chunk.js": "/pizzasLuigi/static/js/787.b7ef7d92.chunk.js",
     "static/media/Login.jpg": "/pizzasLuigi/static/media/Login.572bc4c2266fc00da854.jpg",
     "static/media/bgmenu.jpg": "/pizzasLuigi/static/media/bgmenu.cb759ffd8fde4a5d0224.jpg",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/pizzasLuigi/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/pizzasLuigi/index.html",
     "main.d83b3e3e.css.map": "/pizzasLuigi/static/css/main.d83b3e3e.css.map",
-    "main.65bdde87.js.map": "/pizzasLuigi/static/js/main.65bdde87.js.map",
+    "main.281c3c87.js.map": "/pizzasLuigi/static/js/main.281c3c87.js.map",
     "787.b7ef7d92.chunk.js.map": "/pizzasLuigi/static/js/787.b7ef7d92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d83b3e3e.css",
-    "static/js/main.65bdde87.js"
+    "static/js/main.281c3c87.js"
   ]
 }
