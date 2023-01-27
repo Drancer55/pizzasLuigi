@@ -1,0 +1,52 @@
+.menu{
+    background-image: url('../assets/menu/bgmenu.jpg');
+    background-position: center;
+    margin-top: 7vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-title{
+    color: rgb(172, 172, 169);
+    text-shadow: rgb(34, 66, 34) 1px 1px 5px;
+}
+
+.menu-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 3vw;
+}
+
+.card-content{
+    background-color: rgba(185, 180, 180, 0.575);
+}
+
+.card-footer{
+    background-color: rgba(185, 180, 180, 0.575);
+    margin-bottom: 0;
+}
+
+.addCart{
+    background-color: rgb(13, 85, 8);
+    color: beige;
+    text-align: center;
+    margin: auto;
+    padding: 1vh;
+    border-radius: 10px;
+    border: transparent;
+    box-shadow: black 1px 1px 2px 1px;
+    cursor: pointer;
+}
+
+.addCart:hover{
+    background-color: rgba(15, 151, 5, 0.788);
+    scale: 1.2;
+    color: rgb(253, 226, 226);
+    box-shadow: rgb(100, 99, 99) 1px 1px 2px 1px;
+}

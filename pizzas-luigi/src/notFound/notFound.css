@@ -1,0 +1,14 @@
+.cuatro{
+    background-image: url('../assets/notFound/NotFound.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    min-height: 100vh;
+    background-color: rgb(252, 217, 103);
+    color: rgb(206, 204, 201);
+    text-shadow: black 2px 2px 2px;
+}

@@ -1,0 +1,86 @@
+@keyframes pizzas {
+    0% {
+        background-image: url('../assets/login/Login6.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    20% {
+        background-image: url('../assets/login/Login5.jpg');
+        background-size: cover;
+        background-position: center
+    }
+
+    40% {
+        background-image: url('../assets/login/Login4.jpg');
+        background-size: cover;
+        background-position: center
+    }
+
+    60% {
+        background-image: url('../assets/login/Login3.jpg');
+        background-size: cover;
+        background-position: center
+    }
+
+    80% {
+        background-image: url('../assets/login/Login2.jpg');
+        background-size: cover;
+        background-position: center
+    }
+
+    100% {
+        background-image: url('../assets/login/Login.jpg');
+        background-size: cover;
+        background-position: center
+    }
+}
+
+
+.app-login {
+    animation-name: pizzas;
+    animation-duration: 100s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(224, 230, 222);
+    text-shadow: black 2px 2px 2px;
+    box-shadow: rgb(10, 53, 1) 2px 2px 2px 2px;
+}
+
+.validate {
+    background-color: rgba(0, 0, 0, 0.315);
+    border-radius: 1.5em;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 3vh 5vw;
+}
+
+.login-set{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 1rem;
+    min-height: 15vh;
+    margin: 5vh 5vw;
+}
+
+.login-set label{
+    margin-top: 1.5vh;
+}
+
+.login-set label input {
+    margin-left: 1vw;
+}
+
+.login-btn{
+    margin-top: 3vh;
+}
+

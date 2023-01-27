@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+.totalRow{
+    height: 8vh;
+    width: 40%;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    margin: auto 3vw;
+}
+
+.cart-img{
+    height: 7vh;
+    min-width: 6vw;
+    border-radius: 10px;
+}
+
+.cart-quantity{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cart-sellName{
+    min-width: 5vw;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 0.5vw;
+}
+
+.cart-btnmin{
+    border-radius: 999px;
+    padding: none;
+    border: transparent;
+    background-color: transparent;
+    color: rgba(148, 23, 23, 0.849);
+    cursor: pointer;
+    margin: 0 1vw;
+}
+
+.cart-btnplus{
+    border-radius: 999px;
+    padding: none;
+    border: transparent;
+    background-color: transparent;
+    color: rgba(26, 107, 151, 0.89);
+    cursor: pointer;
+    margin: 0 1vw;
+}
+
+.quantity{
+    font-weight: 500;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 1vw;
+}
+
+.cart-btnTrash{
+    border-radius: 999px;
+    padding: none;
+    border: transparent;
+    background-color: transparent;
+    color: rgba(100, 4, 4, 0.89);
+    margin-left: 5vw;
+    cursor: pointer;
+}
+
+.name{
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+        animation: App-logo-spin infinite 15s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.logo{
+    height: 7vh;
+    width: 7vh;
+    margin-left: 3vw;
+}
