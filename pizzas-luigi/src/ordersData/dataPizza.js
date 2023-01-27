@@ -9,7 +9,7 @@ export const Pizzas = [
     {
         id: 2,
         name: 'Mexicana',
-        img: 'https://www.dondeir.com/wp-content/uploads/2017/04/lugares-con-pizza-de-aguacate-y-guacamole-en-cdmx-03.jpg',
+        img: 'http://www.soygourmet.uy/cache/com_zoo/images/receta-pizza-mexicana_8dd53a25e31db5703e425afa4e82d447.jpg',
         ingredients: ["Jalapeño", "Pierna", "Pollo", "Aguacate"],
         price: 230
     },
